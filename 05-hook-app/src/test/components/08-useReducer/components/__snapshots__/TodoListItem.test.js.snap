@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en TodoListItem Debe de mostrar el componente correctamente 1`] = `
+<Fragment>
+  <li
+    className="list-group-item"
+    key="1"
+  >
+    <p
+      className="false"
+      id={1}
+      onClick={[MockFunction]}
+    >
+      1
+       
+      Aprender react
+    </p>
+    <button
+      className="btn btn-danger"
+      id={1}
+      onClick={[MockFunction]}
+      type="button"
+    >
+      -
+    </button>
+  </li>
+</Fragment>
+`;

@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en SearchScreen Debe de llamar el push del history 1`] = `
+Array [
+  <h1>
+    Search Screen
+  </h1>,
+  <div
+    className="search-container"
+  >
+    <div
+      className="search-form"
+    >
+      <h4>
+        Search Form: 
+      </h4>
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="captain"
+        />
+        <button
+          type="submit"
+        >
+          🔍
+        </button>
+      </form>
+    </div>
+    <br />
+    <h4>
+      Results: 
+    </h4>
+    <br />
+    <div
+      className="search-result"
+    >
+      <div
+        className="card animate__fadeIn animate__animated animate__fast"
+      >
+        <div>
+          <img
+            alt="Captain America"
+            className="card-img"
+            src=""
+          />
+        </div>
+        <div
+          className="card-body"
+        >
+          <h5>
+            Captain America
+          </h5>
+          <p
+            className="card-text"
+          >
+            Steve Rogers
+          </p>
+          <p
+            className="card-text"
+          >
+            <small
+              className="text-muted"
+            >
+              Captain America Comics #1
+            </small>
+          </p>
+          <a
+            className="link"
+            onClick={[Function]}
+          >
+            Mas...
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Pruebas en SearchScreen Debe de mostrar error si el hero buscado no existe 1`] = `
+Array [
+  <h1>
+    Search Screen
+  </h1>,
+  <div
+    className="search-container"
+  >
+    <div
+      className="search-form"
+    >
+      <h4>
+        Search Form: 
+      </h4>
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="batman123"
+        />
+        <button
+          type="submit"
+        >
+          🔍
+        </button>
+      </form>
+    </div>
+    <br />
+    <h4>
+      Results: 
+    </h4>
+    <br />
+    <div
+      className="search-result"
+    >
+      <div
+        className="alert alert-danger"
+      >
+        There is no a hero with: 
+        batman123
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Pruebas en SearchScreen Debe de mostrarse correctamente con valores por defecto 1`] = `
+Array [
+  <h1>
+    Search Screen
+  </h1>,
+  <div
+    className="search-container"
+  >
+    <div
+      className="search-form"
+    >
+      <h4>
+        Search Form: 
+      </h4>
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value=""
+        />
+        <button
+          type="submit"
+        >
+          🔍
+        </button>
+      </form>
+    </div>
+    <br />
+    <h4>
+      Results: 
+    </h4>
+    <br />
+    <div
+      className="search-result"
+    >
+      <div
+        className="alert alert-info"
+      >
+        Search a hero
+      </div>
+    </div>
+  </div>,
+]
+`;

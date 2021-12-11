@@ -1,0 +1,57 @@
+nav {
+  background-color: #082032;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 20px;
+  width: 100vw;
+  height: 5%;
+}
+
+.brand {
+  color: #ff4c29;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+}
+
+.container-links {
+  grid-column: 3/3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-logout {
+  grid-column: 7/7;
+  align-self: center;
+  justify-self: center;
+}
+
+.container-logout button {
+  background-color: transparent;
+  border: 1px solid lightgray;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+  padding: 0.3rem 2rem;
+}
+
+.container-logout button:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.5s;
+}
+
+.container-user {
+  grid-column: 6/7;
+  align-self: center;
+  justify-self: flex-end;
+  color: #ff4c29;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}

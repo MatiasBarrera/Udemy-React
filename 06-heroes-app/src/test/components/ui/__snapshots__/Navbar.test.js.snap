@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en Navbar Debe de mostrarse correctamente 1`] = `
+<nav>
+  <a
+    className="brand"
+    onClick={[Function]}
+  >
+    Asociaciones
+  </a>
+  <div
+    className="container-links"
+  >
+    <a
+      aria-current={null}
+      onClick={[Function]}
+    >
+      Marvel
+    </a>
+    <a
+      aria-current={null}
+      onClick={[Function]}
+    >
+      DC Comics
+    </a>
+    <a
+      aria-current={null}
+      onClick={[Function]}
+    >
+      Search
+    </a>
+  </div>
+  <div
+    className="container-user"
+  >
+    Matias
+  </div>
+  <div
+    className="container-logout"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Logout
+    </button>
+  </div>
+</nav>
+`;

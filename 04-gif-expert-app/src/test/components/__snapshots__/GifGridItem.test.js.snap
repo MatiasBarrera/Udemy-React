@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente GifGridItem.js Debe mostrar el componente <GifGridItem /> correctamente 1`] = `
+<div
+  className="card animate__animated animate__bounceIn"
+>
+  <img
+    alt="Hunter x Hunter"
+    src="https://localhost.com"
+  />
+  <p>
+    Hunter x Hunter
+  </p>
+</div>
+`;

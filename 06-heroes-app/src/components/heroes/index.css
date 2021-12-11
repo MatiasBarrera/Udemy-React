@@ -1,0 +1,171 @@
+.card-columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  height: 300px;
+  border: 1px solid lightgray;
+  margin: 1rem 1rem 1rem 0rem;
+  display: flex;
+}
+
+.card-img {
+  width: 170px;
+  height: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  padding: 2em 2em;
+}
+
+.card-text {
+  padding: 0.5em 0em;
+}
+
+.text-muted {
+  color: lightgray;
+}
+
+.link {
+  color: blue;
+  text-align: center;
+  padding: 0.2em 0px;
+  width: 100px;
+  font-weight: 500;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+.link:hover {
+  background-color: blue;
+  transition: ease-in-out 0.1s;
+  color: #fff;
+}
+
+/* HeroScreen */
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.hero-image {
+  border: 1px solid lightgray;
+  padding: 1em 1em;
+  width: 400px;
+  height: 600px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-detail {
+  border: 1px solid lightgray;
+  padding: 1em 1em;
+  width: 500px;
+  margin-left: 1em;
+}
+
+.list-group {
+  list-style: none;
+  padding: 1em 1em;
+}
+
+.list-group li {
+  margin-bottom: 10px;
+}
+
+.btn-return {
+  margin-top: 3rem;
+  border: 2px solid red;
+  padding: 0.5em 2em;
+  background-color: transparent;
+  color: red;
+  font-weight: bolder;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-return:hover {
+  color: #fff;
+  background-color: red;
+  transition: ease-in-out 0.1s;
+}
+
+/* Search */
+
+.search-container {
+  margin-top: 3rem;
+}
+
+.search-form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search-form h4 {
+  padding-right: 1em;
+}
+
+.search-form form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-form input {
+  border: none;
+  border-bottom: 2px solid lightgray;
+  padding: 1em 1em;
+  width: 29rem;
+  font-size: medium;
+}
+
+.search-form button {
+  width: 2.5em;
+  font-size: 1.5em;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  transition: ease-in-out 0.1s;
+}
+
+.search-result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.alert {
+  border: 1px solid lightgrey;
+  width: 50%;
+  text-align: center;
+  padding: 1em 0em;
+  border-radius: 10px;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.alert-info {
+  background-color: lightskyblue;
+}
+
+.alert-danger {
+  background-color: tomato;
+}
